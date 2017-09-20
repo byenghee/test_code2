@@ -62,6 +62,7 @@ template<typename Promo>
 void CheckOut<Promo>::Scan(Item *i)
 {
     pitems.push_back(i);
+    total = INIT_TOTAL;
 }
 
 template<typename Promo>
